@@ -7,7 +7,7 @@ set :repo_url, 'https://github.com/alerkasun/gas-powered-app'
 set :user, 'root'
 set :application, 'gas-powered-app'
 set :rails_env, 'production'
-server '185.198.164.218', user: fetch(:user), roles: %w(web app db), port: 3333, password: 'ZUfuTEc5'
+server '185.198.164.218', user: fetch(:user), roles: %w(web app db), port: 3333, password: 'xxxxxx'
 
 set :deploy_to,       "/home/#{fetch(:user)}/apps/#{fetch(:application)}"
 set :pty, true
